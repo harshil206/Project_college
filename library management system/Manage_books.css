@@ -1,3 +1,8 @@
+body{
+  background-image: url("home.jfif");
+  background-attachment: fixed;
+  background-position: center;
+}
 ul{
   list-style-type: none;
   margin: 0;
@@ -5,20 +10,35 @@ ul{
   overflow: hidden;
   background-color: grey;
   position: sticky;
+  opacity: 0.8;   
 }
-li{
+li
+{
   float: left;
 }
-li a{
+li a
+{
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover{
+li a:hover
+{
   background-color: red;
 }
 .home{
   background-color: red;
+
+}
+#button{
+  border: none;
+  background-color: inherit;
+  color: white;
+  padding-top: 2%;
+  cursor: pointer;
+}
+#padd{
+  padding-left: 700px;
 }
