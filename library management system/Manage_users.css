@@ -1,0 +1,46 @@
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: sticky;
+  opacity: 0.8;
+}
+li
+{
+  float: left;
+}
+li a
+{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover
+{
+  background-color: white;
+  color: black;
+}
+
+.home{
+  background-color: white;
+  color: black;
+}
+#button{
+  border: none;
+  background-color: inherit;
+  color: white;
+  padding-top: 2%;
+  cursor: pointer;
+}
+#button:hover{
+  background-color: white;
+  color: black;
+}
+#padd{
+  padding-left: 700px;
+}
